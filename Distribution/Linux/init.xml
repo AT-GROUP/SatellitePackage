@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+<settings automatic_decisions = "f">
+<objects>
+    <satellite name="Intelsat" posX="200" posY="100" maxBw="3000">
+        <station name="Moscow" posX="800" posY="200" satellite="Intelsat" call="4" failure="2"/>
+        <station name="Bryansk" posX="840" posY="250" satellite="Intelsat" call="2" failure="3"/>
+        <station name="Voronej" posX="370" posY="250" satellite="Intelsat" call="50" failure="2"/>
+        <station name="Saratov" posX="450" posY="250" satellite="Intelsat" call="50" failure="2"/>
+        <station name="Samara" posX="400" posY="277" satellite="Intelsat" call="5" failure="3"/>
+    </satellite>
+    <satellite name="AM5" posX="1000" posY="100" maxBw="2000">
+        <station name="Magadan" posX="200" posY="400" satellite="AM5" call="5" failure="1"/>
+        <station name="Kazan" posX="700" posY="240" satellite="AM5" call="5" failure="4"/>
+        <station name="Kamchatka" posX="1000" posY="250" satellite="AM5" call="5" failure="20"/>
+        <station name="Irkutsk" posX="905" posY="470" satellite="AM5" call="5" failure="15"/>
+    </satellite>
+</objects>
+</config>

@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="background">../../Resources/back.png</file>
+        <file alias="satellite">../../Resources/satellite.png</file>
+        <file alias="settings">../../Resources/settings.png</file>
+        <file alias="station">../../Resources/station.png</file>
+    </qresource>
+</RCC>

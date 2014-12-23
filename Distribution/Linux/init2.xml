@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+<objects>
+    <satellite name="Intelsat" maxBw="3000">
+        <station name="Moscow" ip="81.200.86.82" interface="5" satellite="Intelsat" />
+        <station name="Bryansk" ip="81.200.86.210" interface="5" satellite="Intelsat" />
+    </satellite>
+</objects>
+<interval value="1000" />
+</config>
