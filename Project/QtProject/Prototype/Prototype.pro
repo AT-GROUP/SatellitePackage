@@ -41,5 +41,15 @@ else:unix: LIBS += -L$$OUT_PWD/../SNMP/ -lSNMP
 INCLUDEPATH += $$PWD/../SNMP
 DEPENDPATH += $$PWD/../SNMP
 
-QMAKE_CXXFLAGS += -std=c++11
+win32:CONFIG(release, debug|release): LIBS += -L$$OUT_PWD/../snmp_pp/release/ -lsnmp_pp
+else:win32:CONFIG(debug, debug|release): LIBS += -L$$OUT_PWD/../snmp_pp/debug/ -lsnmp_pp
+else:unix: LIBS += -L$$PWD/../../src/snmp_pp/ -lsnmp++
 
+INCLUDEPATH += $$PWD/../snmp_pp
+DEPENDPATH += $$PWD/../snmp_pp
+
+win32: DEPENDPATH += $$PWD/../../src/openssl
+win32: INCLUDEPATH += $$PWD/../../src/openssl/include
+win32: LIBS += -L$$PWD/../../src/openssl -lssl -lcrypto -lws2_32
+
+QMAKE_CXXFLAGS += -std=c++11

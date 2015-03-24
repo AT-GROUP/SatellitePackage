@@ -28,9 +28,10 @@ HEADERS += \
     ../../src/SNMP/RealSatellite.h \
     ../../src/SNMP/RealStatisticCollector.h
 
-unix {
-    target.path = /usr/lib
-    INSTALLS += target
-}
-
 QMAKE_CXXFLAGS += -std=c++11
+
+win32:CONFIG(release, debug|release): LIBS += -L$$OUT_PWD/../snmp_pp/release/ -lsnmp_pp
+else:win32:CONFIG(debug, debug|release): LIBS += -L$$OUT_PWD/../snmp_pp/debug/ -lsnmp_pp
+
+INCLUDEPATH += $$PWD/../snmp_pp
+DEPENDPATH += $$PWD/../snmp_pp

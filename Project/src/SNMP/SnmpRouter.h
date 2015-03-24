@@ -4,10 +4,13 @@
 #include <string>
 #include <list>
 #include <QString>
+#define STDCXX_98_HEADERS
+#include "../snmp_pp/snmp_pp.h"
 
 class RouterPool;
 
 using namespace std;
+using namespace Snmp_pp;
 
 class SnmpRouter
 {
@@ -17,9 +20,14 @@ private:
     long long ifInOctets, ifOutOctets;
     long long ifInBw, ifOutBw;
     RouterPool* rp;
+    qint64 lastQuery;
+    Snmp* snmp;
+    Pdu pdu;
+    Vb vb_ifInOctets, vb_ifOutOctets;
+    CTarget ctarget;
 public:
     explicit SnmpRouter(QString &ip, RouterPool* rp);
-    list<string> getInterfaceList();
+    ~SnmpRouter();
     void selectInterface(int index);
     long long getBw();
     long long getInOctets();

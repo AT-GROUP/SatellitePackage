@@ -64,8 +64,8 @@ void RealWorld::loadInitData()
                 QString ip = attrs.value("ip").toString();
                 rp->addRouter(ip);
                 SnmpRouter* r = rp->getRouter(ip);
-                QString interface = attrs.value("interface").toString();
-                r->selectInterface(interface.toInt());
+                QString _interface = attrs.value("interface").toString();
+                r->selectInterface(_interface.toInt());
                 stations.push_back(new RealStation(attrs.value("name").toString(), satellites.back(), r));
             }
             if (xml.name() == "interval")
