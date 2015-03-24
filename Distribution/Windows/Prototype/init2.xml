@@ -1,10 +1,85 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <config>
 <objects>
-    <satellite name="Intelsat" maxBw="3000">
-        <station name="Moscow" ip="81.200.86.82" interface="5" satellite="Intelsat" />
-        <station name="Bryansk" ip="81.200.86.210" interface="5" satellite="Intelsat" />
+    <satellite name="Intelsat 904" maxBw="3000">
+        <station name="Orenburg #49" ip="81.200.86.125" interface="1" satellite="Intelsat 904" />
+        <station name="Petrozavodsk #51" ip="81.200.86.141" interface="1" satellite="Intelsat 904" />
+        <station name="TCMK MO #1" ip="81.200.86.25" interface="1" satellite="Intelsat 904" />
+        <station name="Piter #7" ip="81.200.86.249" interface="1" satellite="Intelsat 904" />
+        <station name="Smolensk #30" ip="81.200.86.21" interface="1" satellite="Intelsat 904" />
+        <station name="Bryansk #15" ip="81.200.86.53" interface="1" satellite="Intelsat 904" />
+        <station name="Maikop #41" ip="81.200.86.221" interface="1" satellite="Intelsat 904" />
+        <station name="Cherkessk #19" ip="81.200.86.177" interface="1" satellite="Intelsat 904" />
+        <station name="Nalchik #23" ip="81.200.86.81" interface="1" satellite="Intelsat 904" />
+        <station name="Stavropol #18" ip="81.200.86.129" interface="1" satellite="Intelsat 904" />
+        <station name="Vladikavkaz #3" ip="81.200.86.137" interface="1" satellite="Intelsat 904" />
+        <station name="Nazran #25" ip="81.200.86.57" interface="1" satellite="Intelsat 904" />
+        <station name="Grozniy #27" ip="81.200.86.17" interface="1" satellite="Intelsat 904" />
+        <station name="Mahachkala #2" ip="81.200.86.105" interface="1" satellite="Intelsat 904" />
+        <station name="Saransk #4" ip="81.200.86.113" interface="1" satellite="Intelsat 904" />
+        <station name="Lipetsk #5" ip="81.200.86.97" interface="1" satellite="Intelsat 904" />
+        <station name="Kaluga #6" ip="81.200.86.121" interface="1" satellite="Intelsat 904" />
+        <station name="Rostov-Don #8" ip="81.200.86.73" interface="1" satellite="Intelsat 904" />
+        <station name="Nijniy Novgorod #12" ip="81.200.86.65" interface="1" satellite="Intelsat 904" />
+        <station name="Arhangelsk #16" ip="81.200.86.49" interface="1" satellite="Intelsat 904" />
+        <station name="Saratov #20" ip="81.200.86.193" interface="1" satellite="Intelsat 904" />
+        <station name="Samara #21" ip="81.200.86.185" interface="1" satellite="Intelsat 904" />
+        <station name="Kirov #22" ip="81.200.86.209" interface="1" satellite="Intelsat 904" />
+        <station name="Sklifosovskogo #24" ip="81.200.86.201" interface="1" satellite="Intelsat 904" />
+        <station name="Kurgan #26" ip="81.200.86.233" interface="1" satellite="Intelsat 904" />
+        <station name="Beslan #28" ip="81.200.86.9" interface="1" satellite="Intelsat 904" />
+        <station name="Ivankovskoe sh #29" ip="81.200.86.205" interface="1" satellite="Intelsat 904" />
+        <station name="Taldomskaya #31" ip="81.200.86.153" interface="1" satellite="Intelsat 904" />
+        <station name="Gelmgoltz #32" ip="81.200.86.13" interface="1" satellite="Intelsat 904" />
+        <station name="Visnevskogo #34" ip="81.200.86.237" interface="1" satellite="Intelsat 904" />
+        <station name="Priorova #35" ip="81.200.86.157" interface="1" satellite="Intelsat 904" />
+        <station name="Penza #37" ip="81.200.86.117" interface="1" satellite="Intelsat 904" />
+        <station name="Astrahan #38" ip="81.200.86.169" interface="1" satellite="Intelsat 904" />
+        <station name="Yaroslavl #39" ip="81.200.86.173" interface="1" satellite="Intelsat 904" />
+        <station name="Ivanovo #40" ip="81.200.86.217" interface="1" satellite="Intelsat 904" />
+        <station name="Perm #42" ip="81.200.86.225" interface="1" satellite="Intelsat 904" />
+        <station name="Kurgan 2 #43" ip="81.200.86.229" interface="1" satellite="Intelsat 904" />
+        <station name="TEST St #45" ip="81.200.86.93" interface="1" satellite="Intelsat 904" />
+        <station name="Piter 2(Obl) #46" ip="81.200.86.241" interface="1" satellite="Intelsat 904" />
+        <station name="Syktyvkar #47" ip="81.200.86.245" interface="1" satellite="Intelsat 904" />
+        <station name="Kostroma #48" ip="81.200.86.213" interface="1" satellite="Intelsat 904" />
+    </satellite>
+    <satellite name="Yamal 90" maxBw="1500">
+        <station name="Kazan #1" ip="81.200.87.113" interface="1" satellite="Yamal 90" />
+        <station name="Voronezh #23" ip="81.200.87.77" interface="1" satellite="Yamal 90" />
+        <station name="GornoAltaisk #22" ip="81.200.87.29" interface="1" satellite="Yamal 90" />
+        <station name="Omsk #21" ip="81.200.87.165" interface="1" satellite="Yamal 90" />
+        <station name="Kemerovo #20" ip="81.200.87.161" interface="1" satellite="Yamal 90" />
+        <station name="TEST St #19" ip="81.200.87.25" interface="1" satellite="Yamal 90" />
+        <station name="Kyzyl #18" ip="81.200.87.9" interface="1" satellite="Yamal 90" />
+        <station name="Skovorodino #16" ip="81.200.87.153" interface="1" satellite="Yamal 90" />
+        <station name="Tynda #15" ip="81.200.87.145" interface="1" satellite="Yamal 90" />
+        <station name="Batagay #11" ip="81.200.87.89" interface="1" satellite="Yamal 90" />
+        <station name="Irkutsk #7" ip="81.200.87.41" interface="1" satellite="Yamal 90" />
+        <station name="Ufa #5" ip="81.200.87.81" interface="1" satellite="Yamal 90" />
+        <station name="Ekaterinburg #4" ip="81.200.87.57" interface="1" satellite="Yamal 90" />
+        <station name="Chelyabinsk #3" ip="81.200.87.129" interface="1" satellite="Yamal 90" />
+        <station name="Novosibirsk #2" ip="81.200.87.49" interface="1" satellite="Yamal 90" />
+        <station name="Ekaterinburg MOB #6" ip="81.200.87.65" interface="1" satellite="Yamal 90" />
+        <station name="Ufa Mob #12" ip="81.200.87.105" interface="1" satellite="Yamal 90" />
+        <station name="Kazan Mob #13" ip="81.200.87.121" interface="1" satellite="Yamal 90" />
+    </satellite>
+    <satellite name="AM3" maxBw="1200">
+        <station name="Kamchatka MOB #2" ip="81.200.83.137" interface="1" satellite="AM3" />
+        <station name="Vladivostok #3" ip="81.200.83.9" interface="1" satellite="AM3" />
+        <station name="Khabarovsk #4" ip="81.200.83.233" interface="1" satellite="AM3" />
+        <station name="CRB Kluchi #5" ip="81.200.83.21" interface="1" satellite="AM3" />
+        <station name="Yuzhno-Sakhalinsk #6" ip="81.200.83.3" interface="1" satellite="AM3" />
+        <station name="Krasnoyarsk #7" ip="81.200.83.129" interface="1" satellite="AM3" />
+        <station name="CRB Milkovo #8" ip="81.200.83.241" interface="1" satellite="AM3" />
+        <station name="CRB Viluchinsk #9" ip="81.200.83.245" interface="1" satellite="AM3" />
+        <station name="Magadan #10" ip="81.200.83.253" interface="1" satellite="AM3" />
+        <station name="Blagoveshensk #11" ip="81.200.83.249" interface="1" satellite="AM3" />
+        <station name="Yakutsk #12" ip="81.200.83.225" interface="1" satellite="AM3" />
+        <station name="Maiya #13" ip="81.200.83.229" interface="1" satellite="AM3" />
+        <station name="Chita #16" ip="81.200.83.241" interface="1" satellite="AM3" />
+        <station name="Kamchatka #1" ip="81.200.83.145" interface="1" satellite="AM3" />
     </satellite>
 </objects>
-<interval value="1000" />
+<interval value="10000" />
 </config>
